@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bookshelf"
+    },
+    "title": {"translate":"smp2:advancements.architect.craft_5_bookselves.title"},
+    "description": {"translate":"smp2:advancements.architect.craft_5_bookselves.description"},
+    "frame": "task"
+  },
+  "parent": "smp2:architect/craft_stairs",
+  "criteria": {
+    "craft_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {"type_specific": {
+          "type": "player",
+          "advancements": {"smp2:architect/craft_stairs":true}
+        }}
+      }
+    },
+    "craft_5_bookselves":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [{
+              "type": "crafted",
+              "stat": "bookshelf",
+              "value": {"min": 5}
+            }]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["craft_stairs"],
+    ["craft_5_bookselves"]
+  ],
+  "rewards": {"function": "smp2:achievements/craft_5_bookselves"},
+  "sends_telemetry_event": true
+}

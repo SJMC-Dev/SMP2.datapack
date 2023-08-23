@@ -1,0 +1,214 @@
+{
+  "display": {
+      "icon": {"item": "flower_pot"},
+      "title": {"translate":"smp2:advancements.architect.pot_all_small_flowers.title"},
+      "description": {"translate":"smp2:advancements.architect.pot_all_small_flowers.description"},
+      "frame": "goal"
+  },
+  "parent": "smp2:architect/craft_5_bookselves",
+  "criteria": {
+    "craft_5_bookselves": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {"type_specific": {
+          "type": "player",
+          "advancements": {"smp2:architect/craft_5_bookselves":true}
+        }}
+      }
+    },
+    "pot_dandelion": {
+      "trigger": "item_used_on_block",
+      "conditions": {"location": [
+          {
+            "condition": "block_state_property",
+            "block": "potted_dandelion"
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["dandelion"]
+            }
+          }
+        ]
+      }
+    },
+    "pot_poppy": {
+      "trigger": "item_used_on_block",
+      "conditions": {"location": [
+          {
+            "condition": "block_state_property",
+            "block": "potted_poppy"
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["poppy"]
+            }
+          }
+        ]
+      }
+    },
+    "pot_blue_orchid": {
+      "trigger": "item_used_on_block",
+      "conditions": {"location": [
+          {
+            "condition": "block_state_property",
+            "block": "potted_blue_orchid"
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["blue_orchid"]
+            }
+          }
+        ]
+      }
+    },
+    "pot_allium": {
+      "trigger": "item_used_on_block",
+      "conditions": {"location": [
+          {
+            "condition": "block_state_property",
+            "block": "potted_allium"
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["allium"]
+            }
+          }
+        ]
+      }
+    },
+    "pot_azure_bluet": {
+      "trigger": "item_used_on_block",
+      "conditions": {"location": [
+          {
+            "condition": "block_state_property",
+            "block": "potted_azure_bluet"
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["azure_bluet"]
+            }
+          }
+        ]
+      }
+    },
+    "pot_tulip": {
+      "trigger": "item_used_on_block",
+      "conditions": {"location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {"blocks": ["potted_red_tulip","potted_pink_tulip","potted_white_tulip","potted_orange_tulip"]}
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["red_tulip","pink_tulip","white_tulip","orange_tulip"]
+            }
+          }
+        ]
+      }
+    },
+    "pot_oxeye_daisy": {
+      "trigger": "item_used_on_block",
+      "conditions": {"location": [
+          {
+            "condition": "block_state_property",
+            "block": "potted_oxeye_daisy"
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["oxeye_daisy"]
+            }
+          }
+        ]
+      }
+    },
+    "pot_cornflower": {
+      "trigger": "item_used_on_block",
+      "conditions": {"location": [
+          {
+            "condition": "block_state_property",
+            "block": "potted_cornflower"
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["cornflower"]
+            }
+          }
+        ]
+      }
+    },
+    "pot_lily_of_the_valley": {
+      "trigger": "item_used_on_block",
+      "conditions": {"location": [
+          {
+            "condition": "block_state_property",
+            "block": "potted_lily_of_the_valley"
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["lily_of_the_valley"]
+            }
+          }
+        ]
+      }
+    },
+    "pot_wither_rose": {
+      "trigger": "item_used_on_block",
+      "conditions": {"location": [
+          {
+            "condition": "block_state_property",
+            "block": "potted_wither_rose"
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["wither_rose"]
+            }
+          }
+        ]
+      }
+    },
+    "pot_torchflower": {
+      "trigger": "item_used_on_block",
+      "conditions": {"location": [
+          {
+            "condition": "block_state_property",
+            "block": "potted_torchflower"
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["torchflower"]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["craft_5_bookselves"],
+    ["pot_dandelion"],
+    ["pot_poppy"],
+    ["pot_blue_orchid"],
+    ["pot_allium"],
+    ["pot_azure_bluet"],
+    ["pot_tulip"],
+    ["pot_oxeye_daisy"],
+    ["pot_cornflower"],
+    ["pot_lily_of_the_valley"],
+    ["pot_wither_rose"],
+    ["pot_torchflower"]
+  ],
+  "rewards": {"function": "smp2:achievements/pot_all_small_flowers"},
+  "sends_telemetry_event": true
+}

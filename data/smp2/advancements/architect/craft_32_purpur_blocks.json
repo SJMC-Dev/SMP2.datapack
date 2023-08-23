@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "purpur_block"
+    },
+    "title": {"translate":"smp2:advancements.architect.craft_32_purpur_blocks.title"},
+    "description": {"translate":"smp2:advancements.architect.craft_32_purpur_blocks.description"},
+    "frame": "task"
+  },
+  "parent": "smp2:architect/craft_32_prismarine_blocks",
+  "criteria": {
+    "craft_32_prismarine_blocks":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {"type_specific": {
+          "type": "player",
+          "advancements": {"smp2:architect/craft_32_prismarine_blocks":true}
+        }}
+      }
+    },
+    "craft_32_purpur_blocks":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [{
+              "type": "crafted",
+              "stat": "purpur_block",
+              "value": {"min": 32}
+            }]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["craft_32_prismarine_blocks"],
+    ["craft_32_purpur_blocks"]
+  ],
+  "rewards": {"function": "smp2:achievements/craft_32_purpur_blocks"},
+  "sends_telemetry_event": true
+}

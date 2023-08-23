@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+        "item": "bricks"
+    },
+    "title": {"translate":"smp2:advancements.architect.get_3_specified_types_of_bricks.title"},
+    "description": {"translate":"smp2:advancements.architect.get_3_specified_types_of_bricks.description"},
+    "frame": "task"
+  },
+  "parent": "smp2:architect/craft_stairs",
+  "criteria": {
+    "craft_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {"type_specific": {
+          "type": "player",
+          "advancements": {"smp2:architect/craft_stairs":true}
+        }}
+      }
+    },
+    "get_bricks":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [{"items":["bricks"]}]
+      }
+    },
+    "get_stone_bricks":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [{"items":["stone_bricks"]}]
+      }
+    },
+    "get_mud_bricks":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [{"items":["mud_bricks"]}]
+      }
+    }
+  },
+  "requirements": [
+    ["craft_stairs"],
+    ["get_bricks"],
+    ["get_stone_bricks"],
+    ["get_mud_bricks"]
+  ],
+  "rewards": {"function": "smp2:achievements/get_3_specified_types_of_bricks"},
+  "sends_telemetry_event": true
+}

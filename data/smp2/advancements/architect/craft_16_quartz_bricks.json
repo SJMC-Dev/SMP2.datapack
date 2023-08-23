@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+        "item": "quartz_bricks"
+    },
+    "title": {"translate":"smp2:advancements.architect.craft_16_quartz_bricks.title"},
+    "description": {"translate":"smp2:advancements.architect.craft_16_quartz_bricks.description"},
+    "frame": "task"
+  },
+  "parent": "smp2:architect/break_and_pick_up_5_concrete",
+  "criteria": {
+    "break_and_pick_up_5_concrete":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {"type_specific": {
+          "type": "player",
+          "advancements": {"smp2:architect/break_and_pick_up_5_concrete":true}
+        }}
+      }
+    },
+    "craft_5_bookselves":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [{
+              "type": "crafted",
+              "stat": "quartz_bricks",
+              "value": {"min": 16}
+            }]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["break_and_pick_up_5_concrete"],
+    ["craft_5_bookselves"]
+  ],
+  "rewards": {"function": "smp2:achievements/craft_16_quartz_bricks"},
+  "sends_telemetry_event": true
+}

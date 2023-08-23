@@ -1,0 +1,75 @@
+{
+  "display": {
+    "icon": {"item": "map"},
+    "title": {"translate":"smp2:advancements.architect.all_architect_achievements.title"},
+    "description": {"translate":"smp2:advancements.architect.all_architect_achievements.description"},
+    "frame": "challenge"
+  },
+  "parent": "smp2:architect/root",
+  "criteria": {
+    "get_all_froglight": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {"type_specific": {
+          "type": "player",
+          "advancements": {"smp2:architect/get_all_froglight":true}
+        }}
+      }
+    },
+    "place_64_carpets": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {"type_specific": {
+          "type": "player",
+          "advancements": {"smp2:architect/place_64_carpets":true}
+        }}
+      }
+    },
+    "place_all_paintings": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {"type_specific": {
+          "type": "player",
+          "advancements": {"smp2:architect/place_all_paintings":true}
+        }}
+      }
+    },
+    "get_all_deepsplate_bricks_tiles_and_craked_ones": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {"type_specific": {
+          "type": "player",
+          "advancements": {"smp2:architect/get_all_deepsplate_bricks_tiles_and_craked_ones":true}
+        }}
+      }
+    },
+    "craft_16_quartz_bricks": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {"type_specific": {
+          "type": "player",
+          "advancements": {"smp2:architect/craft_16_quartz_bricks":true}
+        }}
+      }
+    },
+    "craft_32_purpur_blocks": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {"type_specific": {
+          "type": "player",
+          "advancements": {"smp2:architect/craft_32_purpur_blocks":true}
+        }}
+      }
+    }
+  },
+  "requirements": [
+    ["get_all_froglight"],
+    ["place_64_carpets"],
+    ["place_all_paintings"],
+    ["get_all_deepsplate_bricks_tiles_and_craked_ones"],
+    ["craft_16_quartz_bricks"],
+    ["craft_32_purpur_blocks"]
+  ],
+  "rewards": {"function": "smp2:achievements/all_architect_achievements"},
+  "sends_telemetry_event": true
+}

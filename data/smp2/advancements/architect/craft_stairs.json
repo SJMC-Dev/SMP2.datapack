@@ -1,0 +1,1089 @@
+{
+  "display": {
+    "icon": {
+      "item": "stone_stairs"
+    },
+    "title": {"translate":"smp2:advancements.architect.craft_stairs.title"},
+    "description": {"translate":"smp2:advancements.architect.craft_stairs.description"},
+    "frame": "task"
+  },
+  "parent": "smp2:architect/place_wooden_door",
+  "criteria": {
+    "place_wooden_door": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {"type_specific": {
+          "type": "player",
+          "advancements": {"smp2:architect/place_wooden_door":true}
+        }}
+      }
+    },
+    "craft_oak_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "oak_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_spruce_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "spruce_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_birch_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "birch_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_jungle_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "jungle_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_acacia_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "acacia_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_dark_oak_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "dark_oak_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_mangrove_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "mangrove_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_cherry_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "cherry_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_bamboo_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "bamboo_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_bamboo_mosaic_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "bamboo_mosaic_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_crimson_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "crimson_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_warped_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "warped_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_stone_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "stone_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_cobblestone_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "cobblestone_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_mossy_cobblestone_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "mossy_cobblestone_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_stone_brick_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "stone_brick_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_mossy_stone_brick_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "mossy_stone_brick_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_andesite_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "andesite_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_polished_andesite_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "polished_andesite_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_diorite_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "diorite_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_polished_diorite_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "polished_diorite_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_granite_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "granite_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_polished_granite_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "polished_granite_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_sandstone_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "sandstone_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_smooth_sandstone_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "smooth_sandstone_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_red_sandstone_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "red_sandstone_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_smooth_red_sandstone_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "smooth_red_sandstone_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_brick_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "brick_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_prismarine_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "prismarine_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_prismarine_brick_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "prismarine_brick_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_dark_prismarine_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "dark_prismarine_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_nether_brick_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "nether_brick_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_red_nether_brick_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "red_nether_brick_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_quartz_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "quartz_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_smooth_quartz_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "smooth_quartz_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_purpur_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "purpur_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_end_stone_brick_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "end_stone_brick_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_blackstone_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "blackstone_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_polished_blackstone_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "polished_blackstone_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_polished_blackstone_brick_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "polished_blackstone_brick_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_cut_copper_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "cut_copper_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_exposed_cut_copper_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "exposed_cut_copper_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_weathered_cut_copper_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "weathered_cut_copper_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_oxidized_cut_copper_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "oxidized_cut_copper_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_waxed_cut_copper_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "waxed_cut_copper_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_waxed_exposed_cut_copper_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "waxed_exposed_cut_copper_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_waxed_weathered_cut_copper_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "waxed_weathered_cut_copper_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_waxed_oxidized_cut_copper_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "waxed_oxidized_cut_copper_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_cobbled_deepslate_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "cobbled_deepslate_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_polished_deepslate_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "polished_deepslate_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_deepslate_brick_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "deepslate_brick_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_deepslate_tile_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "deepslate_tile_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "craft_mud_brick_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "mud_brick_stairs",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["place_wooden_door"],
+    [
+      "craft_oak_stairs",
+      "craft_spruce_stairs",
+      "craft_birch_stairs",
+      "craft_jungle_stairs",
+      "craft_acacia_stairs",
+      "craft_dark_oak_stairs",
+      "craft_mangrove_stairs",
+      "craft_cherry_stairs",
+      "craft_bamboo_stairs",
+      "craft_bamboo_mosaic_stairs",
+      "craft_crimson_stairs",
+      "craft_warped_stairs",
+      "craft_stone_stairs",
+      "craft_cobblestone_stairs",
+      "craft_mossy_cobblestone_stairs",
+      "craft_stone_brick_stairs",
+      "craft_mossy_stone_brick_stairs",
+      "craft_andesite_stairs",
+      "craft_polished_andesite_stairs",
+      "craft_diorite_stairs",
+      "craft_polished_diorite_stairs",
+      "craft_granite_stairs",
+      "craft_polished_granite_stairs",
+      "craft_sandstone_stairs",
+      "craft_smooth_sandstone_stairs",
+      "craft_red_sandstone_stairs",
+      "craft_smooth_red_sandstone_stairs",
+      "craft_brick_stairs",
+      "craft_prismarine_stairs",
+      "craft_prismarine_brick_stairs",
+      "craft_dark_prismarine_stairs",
+      "craft_nether_brick_stairs",
+      "craft_red_nether_brick_stairs",
+      "craft_quartz_stairs",
+      "craft_smooth_quartz_stairs",
+      "craft_purpur_stairs",
+      "craft_end_stone_brick_stairs",
+      "craft_blackstone_stairs",
+      "craft_polished_blackstone_stairs",
+      "craft_polished_blackstone_brick_stairs",
+      "craft_cut_copper_stairs",
+      "craft_exposed_cut_copper_stairs",
+      "craft_weathered_cut_copper_stairs",
+      "craft_oxidized_cut_copper_stairs",
+      "craft_waxed_cut_copper_stairs",
+      "craft_waxed_exposed_cut_copper_stairs",
+      "craft_waxed_weathered_cut_copper_stairs",
+      "craft_waxed_oxidized_cut_copper_stairs",
+      "craft_cobbled_deepslate_stairs",
+      "craft_polished_deepslate_stairs",
+      "craft_deepslate_brick_stairs",
+      "craft_deepslate_tile_stairs",
+      "craft_mud_brick_stairs"
+    ]
+  ],
+  "rewards": {"function": "smp2:achievements/craft_stairs"},
+  "sends_telemetry_event": true
+}

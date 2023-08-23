@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "place_wooden_door": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {"tag": "wooden_doors"}
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "icon": {"item": "oak_door"},
+    "frame": "task",
+    "title": {"translate":"smp2:advancements.architect.place_wooden_door.title"},
+    "description": {"translate":"smp2:advancements.architect.place_wooden_door.description"}
+  },
+  "parent": "smp2:architect/root",
+  "requirements": [["place_wooden_door"]],
+  "rewards": {"function": "smp2:achievements/place_wooden_door"},
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,339 @@
+{
+  "display": {
+    "icon": {
+        "item": "minecraft:painting"
+    },
+    "title": {"translate":"smp2:advancements.architect.place_all_paintings.title"},
+    "description": {"translate":"smp2:advancements.architect.place_all_paintings.description"},
+    "frame": "task"
+  },
+  "parent": "smp2:architect/pot_all_small_flowers",
+  "criteria": {
+    "pot_all_small_flowers": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {"type_specific": {
+          "type": "player",
+          "advancements": {"smp2:architect/pot_all_small_flowers":true}
+        }}
+      }
+    },
+    "place_kebab": {
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+            "type": "painting", "variant": "kebab"
+          }}
+        }}}
+      ]}
+    },
+    "place_aztec":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:aztec"
+          }}
+        }}}
+      ]}
+    },
+    "place_aztec2":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:aztec2"
+          }}
+        }}}
+      ]}
+    },
+    "place_alban":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:alban"
+          }}
+        }}}
+      ]}
+    },
+    "place_bomb":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:bomb"
+          }}
+        }}}
+      ]}
+    },
+    "place_plant":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:plant"
+          }}
+        }}}
+      ]}
+    },
+    "place_wasteland":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:wasteland"
+          }}
+        }}}
+      ]}
+    },
+    "place_wanderer":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:wanderer"
+          }}
+        }}}
+      ]}
+    },
+    "place_graham":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:graham"
+          }}
+        }}}
+      ]}
+    },
+    "place_pool":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:pool"
+          }}
+        }}}
+      ]}
+    },
+    "place_courbet":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:courbet"
+          }}
+        }}}
+      ]}
+    },
+    "place_sunset":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:sunset"
+          }}
+        }}}
+      ]}
+    },
+    "place_sea":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:sea"
+          }}
+        }}}
+      ]}
+    },
+    "place_creebet":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:creebet"
+          }}
+        }}}
+      ]}
+    },
+    "place_match":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:match"
+          }}
+        }}}
+      ]}
+    },
+    "place_bust":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:bust"
+          }}
+        }}}
+      ]}
+    },
+    "place_stage":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:stage"
+          }}
+        }}}
+      ]}
+    },
+    "place_void":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:void"
+          }}
+        }}}
+      ]}
+    },
+    "place_skull_and_roses":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:skull_and_roses"
+          }}
+        }}}
+      ]}
+    },
+    "place_wither":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:wither"
+          }}
+        }}}
+      ]}
+    },
+    "place_fighters":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:fighters"
+          }}
+        }}}
+      ]}
+    },
+    "place_skeleton":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:skeleton"
+          }}
+        }}}
+      ]}
+    },
+    "place_donkey_kong":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:donkey_kong"
+          }}
+        }}}
+      ]}
+    },
+    "place_pointer":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:pointer"
+          }}
+        }}}
+      ]}
+    },
+    "place_pigscene":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:pigscene"
+          }}
+        }}}
+      ]}
+    },
+    "place_burning_skull":{
+      "trigger": "tick",
+      "conditions": {"player": [
+        {"condition": "entity_scores","entity": "this", "scores": {"smp2.achievements.used.painting":{"min": 1}}},
+        {"condition": "entity_properties", "entity": "this", "predicate": {"type_specific": {
+          "type": "player", "looking_at": {"type": "painting","type_specific": {
+              "type": "painting", "variant": "minecraft:burning_skull"
+          }}
+        }}}
+      ]}
+    }
+  },
+  "requirements": [
+    ["pot_all_small_flowers"],
+    ["place_kebab"],
+    ["place_aztec"],
+    ["place_aztec2"],
+    ["place_alban"],
+    ["place_bomb"],
+    ["place_plant"],
+    ["place_wasteland"],
+    ["place_wanderer"],
+    ["place_graham"],
+    ["place_pool"],
+    ["place_courbet"],
+    ["place_sunset"],
+    ["place_sea"],
+    ["place_creebet"],
+    ["place_match"],
+    ["place_bust"],
+    ["place_stage"],
+    ["place_void"],
+    ["place_skull_and_roses"],
+    ["place_wither"],
+    ["place_fighters"],
+    ["place_skeleton"],
+    ["place_donkey_kong"],
+    ["place_pointer"],
+    ["place_pigscene"],
+    ["place_burning_skull"]
+  ],
+  "rewards": {"function": "smp2:achievements/place_all_paintings"},
+  "sends_telemetry_event": true
+}

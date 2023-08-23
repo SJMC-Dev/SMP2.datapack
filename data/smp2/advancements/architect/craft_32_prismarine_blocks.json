@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+        "item": "dark_prismarine"
+    },
+    "title": {"translate":"smp2:advancements.architect.craft_32_prismarine_blocks.title"},
+    "description": {"translate":"smp2:advancements.architect.craft_32_prismarine_blocks.description"},
+    "frame": "task"
+  },
+  "parent": "smp2:architect/break_and_pick_up_5_concrete",
+  "criteria": {
+    "break_and_pick_up_5_concrete":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {"type_specific": {
+          "type": "player",
+          "advancements": {"smp2:architect/break_and_pick_up_5_concrete":true}
+        }}
+      }
+    },
+    "craft_32_prismarine_bricks":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [{
+              "type": "crafted",
+              "stat": "prismarine_bricks",
+              "value": {"min": 32}
+            }]
+          }
+        }
+      }
+    },
+    "craft_32_dark_prismarine":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [{
+              "type": "crafted",
+              "stat": "dark_prismarine",
+              "value": {"min": 32}
+            }]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["break_and_pick_up_5_concrete"],
+    [
+      "craft_32_prismarine_bricks",
+      "craft_32_dark_prismarine"
+    ]
+  ],
+  "rewards": {"function": "smp2:achievements/craft_32_prismarine_blocks"},
+  "sends_telemetry_event": true
+}

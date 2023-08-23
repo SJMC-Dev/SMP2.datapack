@@ -1,0 +1,269 @@
+{
+  "display": {
+    "icon": {
+        "item": "white_concrete"
+    },
+    "title": {"translate":"smp2:advancements.architect.break_and_pick_up_5_concrete.title"},
+    "description": {"translate":"smp2:advancements.architect.break_and_pick_up_5_concrete.description"},
+    "frame": "task"
+  },
+  "parent": "smp2:architect/craft_stairs",
+  "criteria": {
+    "craft_stairs": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {"type_specific": {
+          "type": "player",
+          "advancements": {"smp2:architect/craft_stairs":true}
+        }}
+      }
+    },
+    "break_and_pick_up_5_white_concrete":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {"type": "picked_up", "stat": "white_concrete", "value": {"min": 5}},
+              {"type": "broken", "stat": "white_concrete", "value": {"min": 5}}
+            ]
+          }
+        }
+      }
+    },
+    "break_and_pick_up_5_orange_concrete":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {"type": "picked_up", "stat": "orange_concrete", "value": {"min": 5}},
+              {"type": "broken", "stat": "orange_concrete", "value": {"min": 5}}
+            ]
+          }
+        }
+      }
+    },
+    "break_and_pick_up_5_magenta_concrete":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {"type": "picked_up", "stat": "magenta_concrete", "value": {"min": 5}},
+              {"type": "broken", "stat": "magenta_concrete", "value": {"min": 5}}
+            ]
+          }
+        }
+      }
+    },
+    "break_and_pick_up_5_light_blue_concrete":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {"type": "picked_up", "stat": "light_blue_concrete", "value": {"min": 5}},
+              {"type": "broken", "stat": "light_blue_concrete", "value": {"min": 5}}
+            ]
+          }
+        }
+      }
+    },
+    "break_and_pick_up_5_yellow_concrete":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {"type": "picked_up", "stat": "yellow_concrete", "value": {"min": 5}},
+              {"type": "broken", "stat": "yellow_concrete", "value": {"min": 5}}
+            ]
+          }
+        }
+      }
+    },
+    "break_and_pick_up_5_lime_concrete":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {"type": "picked_up", "stat": "lime_concrete", "value": {"min": 5}},
+              {"type": "broken", "stat": "lime_concrete", "value": {"min": 5}}
+            ]
+          }
+        }
+      }
+    },
+    "break_and_pick_up_5_pink_concrete":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {"type": "picked_up", "stat": "pink_concrete", "value": {"min": 5}},
+              {"type": "broken", "stat": "pink_concrete", "value": {"min": 5}}
+            ]
+          }
+        }
+      }
+    },
+    "break_and_pick_up_5_gray_concrete":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {"type": "picked_up", "stat": "gray_concrete", "value": {"min": 5}},
+              {"type": "broken", "stat": "gray_concrete", "value": {"min": 5}}
+            ]
+          }
+        }
+      }
+    },
+    "break_and_pick_up_5_light_gray_concrete":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {"type": "picked_up", "stat": "light_gray_concrete", "value": {"min": 5}},
+              {"type": "broken", "stat": "light_gray_concrete", "value": {"min": 5}}
+            ]
+          }
+        }
+      }
+    },
+    "break_and_pick_up_5_cyan_concrete":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {"type": "picked_up", "stat": "cyan_concrete", "value": {"min": 5}},
+              {"type": "broken", "stat": "cyan_concrete", "value": {"min": 5}}
+            ]
+          }
+        }
+      }
+    },
+    "break_and_pick_up_5_purple_concrete":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {"type": "picked_up", "stat": "purple_concrete", "value": {"min": 5}},
+              {"type": "broken", "stat": "purple_concrete", "value": {"min": 5}}
+            ]
+          }
+        }
+      }
+    },
+    "break_and_pick_up_5_blue_concrete":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {"type": "picked_up", "stat": "blue_concrete", "value": {"min": 5}},
+              {"type": "broken", "stat": "blue_concrete", "value": {"min": 5}}
+            ]
+          }
+        }
+      }
+    },
+    "break_and_pick_up_5_brown_concrete":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {"type": "picked_up", "stat": "brown_concrete", "value": {"min": 5}},
+              {"type": "broken", "stat": "brown_concrete", "value": {"min": 5}}
+            ]
+          }
+        }
+      }
+    },
+    "break_and_pick_up_5_green_concrete":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {"type": "picked_up", "stat": "green_concrete", "value": {"min": 5}},
+              {"type": "broken", "stat": "green_concrete", "value": {"min": 5}}
+            ]
+          }
+        }
+      }
+    },
+    "break_and_pick_up_5_red_concrete":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {"type": "picked_up", "stat": "red_concrete", "value": {"min": 5}},
+              {"type": "broken", "stat": "red_concrete", "value": {"min": 5}}
+            ]
+          }
+        }
+      }
+    },
+    "break_and_pick_up_5_black_concrete":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {"type": "picked_up", "stat": "black_concrete", "value": {"min": 5}},
+              {"type": "broken", "stat": "black_concrete", "value": {"min": 5}}
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["craft_stairs"],
+    [
+      "break_and_pick_up_5_white_concrete",
+      "break_and_pick_up_5_orange_concrete",
+      "break_and_pick_up_5_magenta_concrete",
+      "break_and_pick_up_5_light_blue_concrete",
+      "break_and_pick_up_5_yellow_concrete",
+      "break_and_pick_up_5_lime_concrete",
+      "break_and_pick_up_5_pink_concrete",
+      "break_and_pick_up_5_gray_concrete",
+      "break_and_pick_up_5_light_gray_concrete",
+      "break_and_pick_up_5_cyan_concrete",
+      "break_and_pick_up_5_purple_concrete",
+      "break_and_pick_up_5_blue_concrete",
+      "break_and_pick_up_5_brown_concrete",
+      "break_and_pick_up_5_green_concrete",
+      "break_and_pick_up_5_red_concrete",
+      "break_and_pick_up_5_black_concrete"
+    ]
+  ],
+  "rewards": {"function": "smp2:achievements/break_and_pick_up_5_concrete"},
+  "sends_telemetry_event": true
+}

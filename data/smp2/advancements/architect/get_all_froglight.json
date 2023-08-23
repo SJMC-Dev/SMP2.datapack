@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pearlescent_froglight"
+    },
+    "title": {"translate":"smp2:advancements.architect.get_all_froglight.title"},
+    "description": {"translate":"smp2:advancements.architect.get_all_froglight.description"},
+    "frame": "goal"
+  },
+  "parent": "smp2:architect/craft_5_bookselves",
+  "criteria": {
+    "craft_5_bookselves": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {"type_specific": {
+          "type": "player",
+          "advancements": {"smp2:architect/craft_5_bookselves":true}
+        }}
+      }
+    },
+    "get_ochre_froglight": {
+      "conditions": {
+        "items": [{"items": ["minecraft:ochre_froglight"]}]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_pearlescent_froglight": {
+      "conditions": {
+        "items": [{"items": ["minecraft:pearlescent_froglight"]}]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_verdant_froglight": {
+      "conditions": {
+        "items": [{"items": ["minecraft:verdant_froglight"]}]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    ["craft_5_bookselves"],
+    ["get_ochre_froglight"],
+    ["get_pearlescent_froglight"],
+    ["get_verdant_froglight"]
+  ],
+  "rewards": {"function": "smp2:achievements/get_all_froglight"},
+  "sends_telemetry_event": true
+}

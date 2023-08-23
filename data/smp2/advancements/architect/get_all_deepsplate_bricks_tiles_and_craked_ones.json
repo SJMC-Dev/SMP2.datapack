@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+        "item": "cracked_deepslate_tiles"
+    },
+    "title": {"translate":"smp2:advancements.architect.get_all_deepsplate_bricks_tiles_and_craked_ones.title"},
+    "description": {"translate":"smp2:advancements.architect.get_all_deepsplate_bricks_tiles_and_craked_ones.description"},
+    "frame": "task"
+  },
+  "parent": "smp2:architect/get_all_glazed_terracotta_once",
+  "criteria": {
+    "get_all_glazed_terracotta_once":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "smp2:architect/get_all_glazed_terracotta_once": true
+            }
+          }
+        }
+      }
+    },
+    "get_deepslate_bricks":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [{"items":["deepslate_bricks"]}]
+      }
+    },
+    "get_deepslate_tiles":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [{"items":["deepslate_tiles"]}]
+      }
+    },
+    "get_cracked_deepslate_bricks":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [{"items":["cracked_deepslate_bricks"]}]
+      }
+    },
+    "get_cracked_deepslate_tiles":{
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [{"items":["cracked_deepslate_tiles"]}]
+      }
+    }
+  },
+  "requirements": [
+    ["get_all_glazed_terracotta_once"],
+    ["get_deepslate_bricks"],
+    ["get_deepslate_tiles"],
+    ["get_cracked_deepslate_bricks"],
+    ["get_cracked_deepslate_tiles"]
+  ],
+  "rewards": {"function": "smp2:achievements/get_all_deepsplate_bricks_tiles_and_craked_ones"},
+  "sends_telemetry_event": true
+}

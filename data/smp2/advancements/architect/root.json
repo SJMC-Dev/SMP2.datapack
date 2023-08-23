@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "tick":{"trigger": "tick"}
+  },
+  "display": {
+    "description": {"translate":"smp2:advancements.architect.root.description"},
+    "frame": "task",
+    "icon": {
+      "item": "minecraft:paper"
+    },
+    "title": {
+      "translate": "smp2:advancements.architect.root.title"
+    },
+    "background": "smp2:textures/gui/advancements/backgrounds/architect.png",
+    "announce_to_chat": false,
+    "hidden": false,
+    "show_toast": false
+  },
+  "requirements": [["tick"]],
+  "sends_telemetry_event": false
+}

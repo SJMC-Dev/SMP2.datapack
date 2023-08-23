@@ -1,0 +1,454 @@
+{
+  "display": {
+    "icon": {
+        "item": "white_carpet"
+    },
+    "title": {"translate":"smp2:advancements.architect.place_64_carpets.title"},
+    "description": {"translate":"smp2:advancements.architect.place_64_carpets.description"},
+    "frame": "task"
+  },
+  "parent": "smp2:architect/craft_64_lanterns",
+  "criteria": {
+    "craft_64_lanterns": {
+      "trigger": "placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "smp2:architect/craft_64_lanterns": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "place_64_white_carpet": {
+      "trigger": "placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "used",
+                    "stat": "white_carpet",
+                    "value": {
+                      "min": 64
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "place_64_orange_carpet": {
+      "trigger": "placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "used",
+                    "stat": "orange_carpet",
+                    "value": {
+                      "min": 64
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "place_64_magenta_carpet": {
+      "trigger": "placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "used",
+                    "stat": "magenta_carpet",
+                    "value": {
+                      "min": 64
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "place_64_light_blue_carpet": {
+      "trigger": "placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "used",
+                    "stat": "light_blue_carpet",
+                    "value": {
+                      "min": 64
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "place_64_yellow_carpet": {
+      "trigger": "placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "used",
+                    "stat": "yellow_carpet",
+                    "value": {
+                      "min": 64
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "place_64_lime_carpet": {
+      "trigger": "placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "used",
+                    "stat": "lime_carpet",
+                    "value": {
+                      "min": 64
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "place_64_pink_carpet": {
+      "trigger": "placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "used",
+                    "stat": "pink_carpet",
+                    "value": {
+                      "min": 64
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "place_64_gray_carpet": {
+      "trigger": "placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "used",
+                    "stat": "gray_carpet",
+                    "value": {
+                      "min": 64
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "place_64_light_gray_carpet": {
+      "trigger": "placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "used",
+                    "stat": "light_gray_carpet",
+                    "value": {
+                      "min": 64
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "place_64_cyan_carpet": {
+      "trigger": "placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "used",
+                    "stat": "cyan_carpet",
+                    "value": {
+                      "min": 64
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "place_64_purple_carpet": {
+      "trigger": "placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "used",
+                    "stat": "purple_carpet",
+                    "value": {
+                      "min": 64
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "place_64_blue_carpet": {
+      "trigger": "placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "used",
+                    "stat": "blue_carpet",
+                    "value": {
+                      "min": 64
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "place_64_brown_carpet": {
+      "trigger": "placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "used",
+                    "stat": "brown_carpet",
+                    "value": {
+                      "min": 64
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "place_64_green_carpet": {
+      "trigger": "placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "used",
+                    "stat": "green_carpet",
+                    "value": {
+                      "min": 64
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "place_64_red_carpet": {
+      "trigger": "placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "used",
+                    "stat": "red_carpet",
+                    "value": {
+                      "min": 64
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "place_64_black_carpet": {
+      "trigger": "placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "used",
+                    "stat": "black_carpet",
+                    "value": {
+                      "min": 64
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["craft_64_lanterns"],
+    [
+    "place_64_white_carpet",
+    "place_64_orange_carpet",
+    "place_64_magenta_carpet",
+    "place_64_light_blue_carpet",
+    "place_64_yellow_carpet",
+    "place_64_lime_carpet",
+    "place_64_pink_carpet",
+    "place_64_gray_carpet",
+    "place_64_light_gray_carpet",
+    "place_64_cyan_carpet",
+    "place_64_purple_carpet",
+    "place_64_blue_carpet",
+    "place_64_brown_carpet",
+    "place_64_green_carpet",
+    "place_64_red_carpet",
+    "place_64_black_carpet"
+  ]],
+  "rewards": {"function": "smp2:achievements/place_64_carpets"},
+  "sends_telemetry_event": true
+}
