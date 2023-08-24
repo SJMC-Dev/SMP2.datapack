@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:brush"
+    },
+    "title": {"translate":"smp2:advancements.archaeologist.craft_brushes.title"},
+    "description": {"translate":"smp2:advancements.archaeologist.craft_brushes.description"},
+    "frame": "task"
+  },
+  "parent": "smp2:archaeologist/root",
+  "criteria": {
+    "craft_brushes": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "crafted",
+                "stat": "brush",
+                "value": {"min": 1}
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["craft_brushes"]
+  ],
+  "sends_telemetry_event": true
+}
