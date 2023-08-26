@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:coast_armor_trim_smithing_template",
+      "nbt": "{\"Enchantments\":[{\"lvl\":3,\"id\":\"minecraft:unbreaking\"}]}"
+    },
+    "title": {
+      "translate": "smp2:advancements.archaeologist.get_all_templates.title"
+    },
+    "description": {
+      "translate": "smp2:advancements.archaeologist.get_all_templates.description"
+    },
+    "frame": "task"
+  },
+  "parent": "smp2:archaeologist/get_template",
+  "criteria": {
+    "get_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wayfinder_armor_trim_smithing_template"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:raiser_armor_trim_smithing_template"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:shaper_armor_trim_smithing_template"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:host_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "get_all_templates"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

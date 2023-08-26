@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_5"
+    },
+    "title": {
+      "translate": "smp2:advancements.archaeologist.get_music_disc.title"
+    },
+    "description": {
+      "translate": "smp2:advancements.archaeologist.get_music_disc.description"
+    },
+    "frame": "task",
+    "hidden": true
+  },
+  "parent": "smp2:archaeologist/craft_brush",
+  "criteria": {
+    "get_music_disc": {
+      "conditions": {
+        "items": [
+          {
+            "tag": [
+              "minecraft:music_discs"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trail_ruins": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:trail_ruins"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "requirements": [
+    [
+      "get_pitcher_plant"
+    ],
+    [
+      "trail_ruins"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
