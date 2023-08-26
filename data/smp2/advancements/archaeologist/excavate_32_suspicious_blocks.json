@@ -11,7 +11,7 @@
   "parent": "smp2:archaeologist/excavate_suspicious_block",
   "criteria": {
     "excavate_32_suspicious_blocks": {
-      "trigger": "inventory_changed",
+      "trigger": "tick",
       "conditions": {
         "player": {
           "type_specific": {
