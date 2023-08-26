@@ -1,6 +1,5 @@
 {
-  "comment": "this advancement is hidden, only for child advancements triggering",
-  "parent": "smp2:archaeologist/craft_brushes",
+  "parent": "smp2:archaeologist/craft_brush",
   "criteria": {
     "trail_ruins": {
       "conditions": {

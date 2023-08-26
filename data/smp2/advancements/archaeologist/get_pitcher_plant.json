@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pitcher_plant"
+    },
+    "title": {
+      "translate": "smp2:advancements.archaeologist.get_pitcher_plant.title"
+    },
+    "description": {
+      "translate": "smp2:advancements.archaeologist.get_pitcher_plant.description"
+    },
+    "frame": "task"
+  },
+  "parent": "smp2:archaeologist/get_sniffer_egg",
+  "criteria": {
+    "get_pitcher_plant": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pitcher_plant"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "get_pitcher_plant"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

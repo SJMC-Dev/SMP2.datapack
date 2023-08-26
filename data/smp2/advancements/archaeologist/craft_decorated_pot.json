@@ -1,15 +1,15 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:brush"
+      "item": "minecraft:decorated_pot"
     },
-    "title": {"translate":"smp2:advancements.archaeologist.craft_brushes.title"},
-    "description": {"translate":"smp2:advancements.archaeologist.craft_brushes.description"},
+    "title": {"translate":"smp2:advancements.archaeologist.craft_decorated_pot.title"},
+    "description": {"translate":"smp2:advancements.archaeologist.craft_decorated_pot.description"},
     "frame": "task"
   },
-  "parent": "smp2:archaeologist/root",
+  "parent": "smp2:archaeologist/get_pot_sherd",
   "criteria": {
-    "craft_brushes": {
+    "craft_decorated_pot": {
       "trigger": "inventory_changed",
       "conditions": {
         "player": {
@@ -18,7 +18,7 @@
             "stats": [
               {
                 "type": "crafted",
-                "stat": "brush",
+                "stat": "decorated_pot",
                 "value": {"min": 1}
               }
             ]
@@ -28,7 +28,7 @@
     }
   },
   "requirements": [
-    ["craft_brushes"]
+    ["craft_decorated_pot"]
   ],
   "sends_telemetry_event": true
 }
