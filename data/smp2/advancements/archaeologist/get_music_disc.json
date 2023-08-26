@@ -9,8 +9,7 @@
     "description": {
       "translate": "smp2:advancements.archaeologist.get_music_disc.description"
     },
-    "frame": "task",
-    "hidden": true
+    "frame": "task"
   },
   "parent": "smp2:archaeologist/craft_brush",
   "criteria": {
