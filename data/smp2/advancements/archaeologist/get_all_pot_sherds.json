@@ -48,8 +48,8 @@
     ["plenty_pottery_sherd"],
     ["prize_pottery_sherd"],
     ["sheaf_pottery_sherd"],
-    ["skull_pottery_sherd"],
-    ["snort_pottery_sherd"]
+    ["shelter_pottery_sherd"],
+    ["skull_pottery_sherd"]
   ],
   "sends_telemetry_event": true
 }

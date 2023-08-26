@@ -18,9 +18,7 @@
       "conditions": {
         "items": [
           {
-            "tag": [
-              "minecraft:music_discs"
-            ]
+            "tag": "minecraft:music_discs"
           }
         ]
       },
@@ -45,7 +43,7 @@
   },
   "requirements": [
     [
-      "get_pitcher_plant"
+      "get_music_disc"
     ],
     [
       "trail_ruins"
