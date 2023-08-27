@@ -15,3 +15,4 @@ execute unless data storage smp2:achievements/architect place_all_paintings run 
 execute unless data storage smp2:achievements/architect place_wooden_door run data modify storage smp2:achievements/architect place_wooden_door set value []
 execute unless data storage smp2:achievements/architect pot_all_small_flowers run data modify storage smp2:achievements/architect pot_all_small_flowers set value []
 scoreboard objectives add smp2.achievements.used.painting used:painting ""
+scoreboard objectives add smp2.achievements.excavated.block dummy ""

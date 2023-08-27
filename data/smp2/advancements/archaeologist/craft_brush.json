@@ -10,20 +10,9 @@
   "parent": "smp2:archaeologist/root",
   "criteria": {
     "craft_brush": {
-      "trigger": "inventory_changed",
+      "trigger": "recipe_crafted",
       "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "stats": [
-              {
-                "type": "crafted",
-                "stat": "brush",
-                "value": {"min": 1}
-              }
-            ]
-          }
-        }
+        "recipe_id": "minecraft:brush"
       }
     }
   },

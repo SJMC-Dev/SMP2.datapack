@@ -11,22 +11,8 @@
   "parent": "smp2:archaeologist/excavate_suspicious_block",
   "criteria": {
     "excavate_32_suspicious_blocks": {
-      "trigger": "tick",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "stats": [
-              {
-                "type": "used",
-                "stat": "brush",
-                "value": {"min": 32}
-              }
-            ]
-          }
-        }
+      "trigger": "impossible"
       }
-    }
   },
   "requirements": [
     [

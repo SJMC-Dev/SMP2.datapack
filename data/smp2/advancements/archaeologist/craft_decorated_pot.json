@@ -10,20 +10,9 @@
   "parent": "smp2:archaeologist/get_pot_sherd",
   "criteria": {
     "craft_decorated_pot": {
-      "trigger": "inventory_changed",
+      "trigger": "recipe_crafted",
       "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "stats": [
-              {
-                "type": "crafted",
-                "stat": "decorated_pot",
-                "value": {"min": 1}
-              }
-            ]
-          }
-        }
+        "recipe_id": "minecraft:decorated_pot"
       }
     }
   },
