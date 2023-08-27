@@ -6,8 +6,7 @@
     "description": {"translate":"smp2:advancements.archaeologist.root.description"},
     "frame": "task",
     "icon": {
-      "item": "minecraft:brush",
-      "nbt": "{\"Enchantments\":[{\"lvl\":3,\"id\":\"minecraft:unbreaking\"}]}"
+      "item": "minecraft:paper"
     },
     "title": {
       "translate": "smp2:advancements.archaeologist.root.title"
