@@ -53,5 +53,6 @@
     ["skull_pottery_sherd"],
     ["snort_pottery_sherd"]
   ],
+  "rewards": {"function": "smp2:achievements/get_all_pot_sherds"},
   "sends_telemetry_event": true
 }

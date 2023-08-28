@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {"item": "map"},
+    "title": {"translate":"smp2:advancements.archaeologist.all_archaeologist_achievements.title"},
+    "description": {"translate":"smp2:advancements.archaeologist.all_archaeologist_achievements.description"},
+    "frame": "challenge"
+  },
+  "parent": "smp2:archaeologist/root",
+  "criteria": {
+    "breed_sniffer": {
+      "trigger": "impossible"
+    },
+    "get_pitcher_plant": {
+      "trigger": "impossible"
+    },
+    "get_torchflower": {
+      "trigger": "impossible"
+    },
+    "get_all_pot_sherds": {
+      "trigger": "impossible"
+    },
+    "excavate_32_suspicious_blocks": {
+      "trigger": "impossible"
+    },
+    "get_all_templates": {
+      "trigger": "impossible"
+    },
+    "find_ruins": {
+      "trigger": "impossible"
+    }
+  },
+  "requirements": [
+    ["breed_sniffer"],
+    ["get_pitcher_plant"],
+    ["get_torchflower"],
+    ["get_all_pot_sherds"],
+    ["excavate_32_suspicious_blocks"],
+    ["get_all_templates"],
+    ["find_ruins"]
+  ],
+  "sends_telemetry_event": true
+}

@@ -116,5 +116,6 @@
       "desert_pyramid"
     ]
   ],
+  "rewards": {"function": "smp2:achievements/find_ruins"},
   "sends_telemetry_event": true
 }

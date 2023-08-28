@@ -31,5 +31,6 @@
       "get_torchflower"
     ]
   ],
+  "rewards": {"function": "smp2:achievements/get_torchflower"},
   "sends_telemetry_event": true
 }

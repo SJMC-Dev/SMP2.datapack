@@ -25,5 +25,6 @@
     ["shaper_armor_trim_smithing_template"],
     ["host_armor_trim_smithing_template"]
   ],
+  "rewards": {"function": "smp2:achievements/get_all_templates"},
   "sends_telemetry_event": true
 }

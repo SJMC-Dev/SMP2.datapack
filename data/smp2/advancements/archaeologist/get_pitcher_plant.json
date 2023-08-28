@@ -31,5 +31,6 @@
       "get_pitcher_plant"
     ]
   ],
+  "rewards": {"function": "smp2:achievements/get_pitcher_plant"},
   "sends_telemetry_event": true
 }
