@@ -29,7 +29,10 @@
     "sheaf_pottery_sherd": {"conditions": {"items": [{"items": ["minecraft:sheaf_pottery_sherd"]}]}, "trigger": "minecraft:inventory_changed"},
     "shelter_pottery_sherd": {"conditions": {"items": [{"items": ["minecraft:shelter_pottery_sherd"]}]}, "trigger": "minecraft:inventory_changed"},
     "skull_pottery_sherd": {"conditions": {"items": [{"items": ["minecraft:skull_pottery_sherd"]}]}, "trigger": "minecraft:inventory_changed"},
-    "snort_pottery_sherd": {"conditions": {"items": [{"items": ["minecraft:snort_pottery_sherd"]}]}, "trigger": "minecraft:inventory_changed"}
+    "snort_pottery_sherd": {"conditions": {"items": [{"items": ["minecraft:snort_pottery_sherd"]}]}, "trigger": "minecraft:inventory_changed"},
+    "%parent%": {
+      "trigger": "impossible"
+    }
   },
   "rewards": {"function": "smp2:achievements/get_all_pot_sherds"},
   "sends_telemetry_event": true
