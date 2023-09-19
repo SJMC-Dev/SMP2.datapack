@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {"item": "map"},
+    "title": {"translate":"smp2:advancements.archaeologist.classical.title"},
+    "description": {"translate":"smp2:advancements.archaeologist.classical.description"},
+    "frame": "task"
+  },
+  "parent": "smp2:archaeologist/root",
+  "criteria": {
+    "get_music_disc": {
+      "trigger": "impossible"
+    },
+    "%parent%": {
+      "trigger": "impossible"
+    },
+    "execute:plt player setTitle %player% 9": {
+      "trigger": "tick"
+    }
+  },
+  "sends_telemetry_event": true
+}

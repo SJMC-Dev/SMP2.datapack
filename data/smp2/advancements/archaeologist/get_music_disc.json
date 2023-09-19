@@ -45,5 +45,5 @@
     }
   },
   "sends_telemetry_event": true,
-  "rewards": {"function": "smp2:achievements/get_music_disc.mcfunction"}
+  "rewards": {"function": "smp2:achievements/get_music_disc"}
 }

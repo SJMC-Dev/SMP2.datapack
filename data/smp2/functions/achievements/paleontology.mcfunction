@@ -1,1 +1,0 @@
-plt player setTitle %player% 8

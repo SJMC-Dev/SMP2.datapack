@@ -1,5 +1,5 @@
 {
-  "smp2:advancements.archaeologist.all_archaeologist_achievements.title": "Archaeologist Certificate",
+  "smp2:advancements.archaeologist.all_archaeologist_achievements.title": "Archaeologist",
   "smp2:advancements.archaeologist.all_archaeologist_achievements.description": "Achieve all archaeologist achievements",
   "smp2:advancements.archaeologist.root.title": "Archaeologist",
   "smp2:advancements.archaeologist.root.description": "Archaeologist root",
@@ -30,5 +30,9 @@
   "smp2:advancements.archaeologist.get_all_templates.title": "Gate of Babylon",
   "smp2:advancements.archaeologist.get_all_templates.description": "Get all templates in trail ruins",
   "smp2:advancements.archaeologist.find_ruins.title": "What's Up",
-  "smp2:advancements.archaeologist.find_ruins.description": "Find trail ruins, ocean ruins, a jungle pyramid or a desert pyramid"
+  "smp2:advancements.archaeologist.find_ruins.description": "Find trail ruins, ocean ruins, a jungle pyramid or a desert pyramid",
+  "smp2:advancements.archaeologist.classical.title": "Classical Musician",
+  "smp2:advancements.archaeologist.classical.description": "Get a music disc",
+  "smp2:advancements.archaeologist.paleontology.title": "Paleontologist",
+  "smp2:advancements.archaeologist.paleontology.description": "Breed a sniffer, get a torchflower and get a pitcher plant"
 }

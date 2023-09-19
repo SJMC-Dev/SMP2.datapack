@@ -30,8 +30,10 @@
     },
     "%parent%": {
       "trigger": "impossible"
+    },
+    "execute:plt player setTitle %player% 10": {
+      "trigger": "tick"
     }
   },
-  "sends_telemetry_event": true,
-  "rewards": {"function": "smp2:achievements/all_archaeologist_achievements.mcfunction"}
+  "sends_telemetry_event": true
 }

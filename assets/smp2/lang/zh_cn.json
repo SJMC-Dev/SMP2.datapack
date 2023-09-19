@@ -1,5 +1,5 @@
 {
-  "smp2:advancements.archaeologist.all_archaeologist_achievements.title": "考古学家证书",
+  "smp2:advancements.archaeologist.all_archaeologist_achievements.title": "学界泰斗",
   "smp2:advancements.archaeologist.all_archaeologist_achievements.description": "达成全部考古学家进度",
   "smp2:advancements.archaeologist.root.title": "考古学家",
   "smp2:advancements.archaeologist.root.description": "考古学家根进度",
@@ -30,5 +30,9 @@
   "smp2:advancements.archaeologist.get_all_templates.title": "Gate of Babylon",
   "smp2:advancements.archaeologist.get_all_templates.description": "获得古代废墟中盔甲纹饰锻造模板所有样式",
   "smp2:advancements.archaeologist.find_ruins.title": "发生什么事了",
-  "smp2:advancements.archaeologist.find_ruins.description": "发现1个古代废墟、海底废墟、丛林神庙或沙漠神殿"
+  "smp2:advancements.archaeologist.find_ruins.description": "发现1个古代废墟、海底废墟、丛林神庙或沙漠神殿",
+  "smp2:advancements.archaeologist.classical.title": "凭翎轻引",
+  "smp2:advancements.archaeologist.classical.description": "完成“古典”音乐",
+  "smp2:advancements.archaeologist.paleontology.title": "霞蔚探奇",
+  "smp2:advancements.archaeologist.paleontology.description": "完成远古基因、“花瓶”、目光如炬"
 }

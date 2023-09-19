@@ -1,1 +1,1 @@
-plt player setTitle %player% 9
+advancement grant @s only smp2:archaeologist/classical get_music_disc
