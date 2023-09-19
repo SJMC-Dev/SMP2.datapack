@@ -12,13 +12,11 @@
   "criteria": {
     "excavate_32_suspicious_blocks": {
       "trigger": "impossible"
-      }
+    },
+    "%parent%": {
+      "trigger": "impossible"
+    }
   },
-  "requirements": [
-    [
-      "excavate_32_suspicious_blocks"
-    ]
-  ],
   "rewards": {"function": "smp2:achievements/excavate_32_suspicious_blocks"},
   "sends_telemetry_event": true
 }

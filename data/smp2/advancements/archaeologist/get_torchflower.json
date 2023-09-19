@@ -24,13 +24,11 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+    "%parent%": {
+      "trigger": "impossible"
     }
   },
-  "requirements": [
-    [
-      "get_torchflower"
-    ]
-  ],
   "rewards": {"function": "smp2:achievements/get_torchflower"},
   "sends_telemetry_event": true
 }

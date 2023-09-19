@@ -18,12 +18,10 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+    "%parent%": {
+      "trigger": "impossible"
     }
   },
-  "requirements": [
-    [
-      "get_pot_sherd"
-    ]
-  ],
   "sends_telemetry_event": true
 }

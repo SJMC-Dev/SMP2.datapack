@@ -44,6 +44,9 @@
         "loot_table": "minecraft:archaeology/trail_ruins_rare"
       },
       "trigger": "minecraft:player_generates_container_loot"
+    },
+    "%parent%": {
+      "trigger": "impossible"
     }
   },
   "requirements": [
@@ -54,7 +57,8 @@
       "ocean_ruin_warm",
       "trail_ruins_rare",
       "trail_ruins_common"
-    ]
+    ],
+    ["%parent%"]
   ],
   "sends_telemetry_event": true
 }

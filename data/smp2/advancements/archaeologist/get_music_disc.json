@@ -39,15 +39,11 @@
         ]
       },
       "trigger": "minecraft:location"
+    },
+    "%parent%": {
+      "trigger": "impossible"
     }
   },
-  "requirements": [
-    [
-      "get_music_disc"
-    ],
-    [
-      "trail_ruins"
-    ]
-  ],
-  "sends_telemetry_event": true
+  "sends_telemetry_event": true,
+  "rewards": {"function": "smp2:achievements/get_music_disc.mcfunction"}
 }

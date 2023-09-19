@@ -35,13 +35,11 @@
         ]
       },
       "trigger": "minecraft:bred_animals"
+    },
+    "%parent%": {
+      "trigger": "impossible"
     }
   },
-  "requirements": [
-    [
-      "breed_sniffer"
-    ]
-  ],
   "rewards": {"function": "smp2:achievements/breed_sniffer"},
   "sends_telemetry_event": true
 }

@@ -14,10 +14,10 @@
       "conditions": {
         "recipe_id": "minecraft:brush"
       }
+    },
+    "%parent%": {
+      "trigger": "impossible"
     }
   },
-  "requirements": [
-    ["craft_brush"]
-  ],
   "sends_telemetry_event": true
 }

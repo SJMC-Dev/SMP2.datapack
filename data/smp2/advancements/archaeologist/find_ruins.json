@@ -104,6 +104,9 @@
         ]
       },
       "trigger": "minecraft:location"
+    },
+    "%parent%": {
+      "trigger": "impossible"
     }
   },
   "requirements": [
@@ -114,7 +117,8 @@
       "desert_well",
       "jungle_pyramid",
       "desert_pyramid"
-    ]
+    ],
+    ["%parent%"]
   ],
   "rewards": {"function": "smp2:achievements/find_ruins"},
   "sends_telemetry_event": true

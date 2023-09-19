@@ -27,16 +27,11 @@
     },
     "find_ruins": {
       "trigger": "impossible"
+    },
+    "%parent%": {
+      "trigger": "impossible"
     }
   },
-  "requirements": [
-    ["breed_sniffer"],
-    ["get_pitcher_plant"],
-    ["get_torchflower"],
-    ["get_all_pot_sherds"],
-    ["excavate_32_suspicious_blocks"],
-    ["get_all_templates"],
-    ["find_ruins"]
-  ],
-  "sends_telemetry_event": true
+  "sends_telemetry_event": true,
+  "rewards": {"function": "smp2:achievements/all_archaeologist_achievements.mcfunction"}
 }

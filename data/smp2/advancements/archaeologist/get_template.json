@@ -43,15 +43,10 @@
         ]
       },
       "trigger": "minecraft:location"
+    },
+    "%parent%": {
+      "trigger": "impossible"
     }
   },
-  "requirements": [
-    [
-      "get_template"
-    ],
-    [
-      "trail_ruins"
-    ]
-  ],
   "sends_telemetry_event": true
 }

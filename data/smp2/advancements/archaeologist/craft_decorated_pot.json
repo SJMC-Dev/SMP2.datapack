@@ -14,10 +14,10 @@
       "conditions": {
         "recipe_id": "minecraft:decorated_pot"
       }
+    },
+    "%parent%": {
+      "trigger": "impossible"
     }
   },
-  "requirements": [
-    ["craft_decorated_pot"]
-  ],
   "sends_telemetry_event": true
 }

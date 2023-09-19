@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "breed_sniffer": {
+      "trigger": "impossible"
+    },
+    "get_pitcher_plant": {
+      "trigger": "impossible"
+    },
+    "get_torchflower": {
+      "trigger": "impossible"
+    }
+  },
+  "sends_telemetry_event": true,
+  "rewards": {"function": "smp2:achievements/paleontology.mcfunction"}
+}

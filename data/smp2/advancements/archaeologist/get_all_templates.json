@@ -17,14 +17,11 @@
     "wayfinder_armor_trim_smithing_template": {"conditions": {"items": [{"items": ["minecraft:wayfinder_armor_trim_smithing_template"]}]}, "trigger": "minecraft:inventory_changed"},
     "raiser_armor_trim_smithing_template": {"conditions": {"items": [{"items": ["minecraft:raiser_armor_trim_smithing_template"]}]}, "trigger": "minecraft:inventory_changed"},
     "shaper_armor_trim_smithing_template": {"conditions": {"items": [{"items": ["minecraft:shaper_armor_trim_smithing_template"]}]}, "trigger": "minecraft:inventory_changed"},
-    "host_armor_trim_smithing_template": {"conditions": {"items": [{"items": ["minecraft:host_armor_trim_smithing_template"]}]}, "trigger": "minecraft:inventory_changed"}
+    "host_armor_trim_smithing_template": {"conditions": {"items": [{"items": ["minecraft:host_armor_trim_smithing_template"]}]}, "trigger": "minecraft:inventory_changed"},
+    "%parent%": {
+      "trigger": "impossible"
+    }
   },
-  "requirements": [
-    ["wayfinder_armor_trim_smithing_template"],
-    ["raiser_armor_trim_smithing_template"],
-    ["shaper_armor_trim_smithing_template"],
-    ["host_armor_trim_smithing_template"]
-  ],
   "rewards": {"function": "smp2:achievements/get_all_templates"},
   "sends_telemetry_event": true
 }

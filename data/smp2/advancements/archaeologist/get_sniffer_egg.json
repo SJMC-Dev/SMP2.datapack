@@ -20,12 +20,10 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+    "%parent%": {
+      "trigger": "impossible"
     }
   },
-  "requirements": [
-    [
-      "sniffer_egg"
-    ]
-  ],
   "sends_telemetry_event": true
 }
