@@ -13,7 +13,7 @@
     "%parent%": {
       "trigger": "impossible"
     },
-    "execute:plt player setTitle %player% 9": {
+    "%execute%:plt player setTitle %player% 9": {
       "trigger": "tick"
     }
   },
