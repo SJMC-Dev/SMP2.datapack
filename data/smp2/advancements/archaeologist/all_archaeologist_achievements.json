@@ -36,10 +36,8 @@
     },
     "%execute%:lp user %player% permission set user.decoration.view true": {
       "trigger": "tick"
-    },
-    "%execute%:give %player% minecraft:brush{display:{Name:\"{\\\"text\\\":\\\"不毁的刷子\\\",\\\"color\\\":\\\"aqua\\\"}\",Lore:[\"{\\\"text\\\":\\\"稀有品\\\",\\\"color\\\":\\\"blue\\\"}\"]},Unbreakable:1b} 1": {
-      "trigger": "tick"
     }
   },
-  "sends_telemetry_event": true
+  "sends_telemetry_event": true,
+  "rewards": {"function": "smp2:achievements/all_archaeologist_achievements"}
 }
