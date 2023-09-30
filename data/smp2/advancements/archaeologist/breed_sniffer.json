@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:torchflower_seeds"
+    },
+    "title": {
+      "translate": "smp2:advancements.archaeologist.breed_sniffer.title"
+    },
+    "description": {
+      "translate": "smp2:advancements.archaeologist.breed_sniffer.description"
+    },
+    "frame": "task"
+  },
+  "parent": "smp2:archaeologist/get_sniffer_egg",
+  "criteria": {
+    "breed_sniffer": {
+      "conditions": {
+        "parent": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:sniffer"
+            }
+          }
+        ],
+        "partner": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:sniffer"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:bred_animals"
+    },
+    "%parent%": {
+      "trigger": "impossible"
+    }
+  },
+  "rewards": {"function": "smp2:achievements/breed_sniffer"},
+  "sends_telemetry_event": true
+}

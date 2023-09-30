@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {"item": "map"},
+    "title": {"translate":"smp2:advancements.archaeologist.paleontology.title"},
+    "description": {"translate":"smp2:advancements.archaeologist.paleontology.description"},
+    "frame": "task"
+  },
+  "parent": "smp2:archaeologist/root",
+  "criteria": {
+    "breed_sniffer": {
+      "trigger": "impossible"
+    },
+    "get_pitcher_plant": {
+      "trigger": "impossible"
+    },
+    "get_torchflower": {
+      "trigger": "impossible"
+    },
+    "%parent%": {
+      "trigger": "impossible"
+    },
+    "%execute%:plt player setTitle %player% 8": {
+      "trigger": "tick"
+    }
+  },
+  "sends_telemetry_event": true
+}

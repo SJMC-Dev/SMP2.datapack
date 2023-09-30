@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:coast_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "smp2:advancements.archaeologist.get_template.title"
+    },
+    "description": {
+      "translate": "smp2:advancements.archaeologist.get_template.description"
+    },
+    "frame": "task"
+  },
+  "parent": "smp2:archaeologist/craft_brush",
+  "criteria": {
+    "get_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wayfinder_armor_trim_smithing_template",
+              "minecraft:raiser_armor_trim_smithing_template",
+              "minecraft:shaper_armor_trim_smithing_template",
+              "minecraft:host_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trail_ruins": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:trail_ruins"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "%parent%": {
+      "trigger": "impossible"
+    }
+  },
+  "sends_telemetry_event": true
+}

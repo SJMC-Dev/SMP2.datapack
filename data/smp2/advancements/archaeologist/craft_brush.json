@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:brush"
+    },
+    "title": {"translate":"smp2:advancements.archaeologist.craft_brush.title"},
+    "description": {"translate":"smp2:advancements.archaeologist.craft_brush.description"},
+    "frame": "task"
+  },
+  "parent": "smp2:archaeologist/root",
+  "criteria": {
+    "craft_brush": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brush"
+      }
+    },
+    "%parent%": {
+      "trigger": "impossible"
+    }
+  },
+  "sends_telemetry_event": true
+}

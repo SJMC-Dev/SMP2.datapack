@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sniffer_egg"
+    },
+    "title": {"translate":"smp2:advancements.archaeologist.get_sniffer_egg.title"},
+    "description": {"translate":"smp2:advancements.archaeologist.get_sniffer_egg.description"},
+    "frame": "task"
+  },
+  "parent": "smp2:archaeologist/excavate_suspicious_block",
+  "criteria": {
+    "sniffer_egg": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sniffer_egg"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "%parent%": {
+      "trigger": "impossible"
+    }
+  },
+  "sends_telemetry_event": true
+}

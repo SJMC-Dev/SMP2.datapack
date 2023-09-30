@@ -1,0 +1,1 @@
+advancement grant @s only smp2:archaeologist/all_archaeologist_achievements excavate_32_suspicious_blocks

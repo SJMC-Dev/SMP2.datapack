@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "tick":{"trigger": "tick"}
+  },
+  "display": {
+    "description": {"translate":"smp2:advancements.archaeologist.root.description"},
+    "frame": "task",
+    "icon": {
+      "item": "minecraft:paper"
+    },
+    "title": {
+      "translate": "smp2:advancements.archaeologist.root.title"
+    },
+    "background": "minecraft:textures/block/suspicious_sand_1.png",
+    "announce_to_chat": false,
+    "hidden": false,
+    "show_toast": false
+  },
+  "requirements": [["tick"]],
+  "sends_telemetry_event": false
+}

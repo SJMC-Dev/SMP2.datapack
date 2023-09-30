@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:angler_pottery_sherd"
+    },
+    "title": {"translate":"smp2:advancements.archaeologist.get_pot_sherd.title"},
+    "description": {"translate":"smp2:advancements.archaeologist.get_pot_sherd.description"},
+    "frame": "task"
+  },
+  "parent": "smp2:archaeologist/excavate_suspicious_block",
+  "criteria": {
+    "get_pot_sherd": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:decorated_pot_sherds"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "%parent%": {
+      "trigger": "impossible"
+    }
+  },
+  "sends_telemetry_event": true
+}
