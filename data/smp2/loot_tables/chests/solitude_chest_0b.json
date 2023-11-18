@@ -1,0 +1,84 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{itemsadder: {id: \"ruby\", namespace: \"solitude\"}, CustomModelData: 10000, display: {Name: '{\"italic\":false,\"color\":\"#ED2626\",\"text\":\"红宝石\"}'}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{itemsadder: {id: \"golden_fish\", namespace: \"solitude\"}, CustomModelData: 10000, display: {Name: '{\"italic\":false,\"color\":\"#FBFF29\",\"text\":\"仿制小金鱼\"}'}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot"
+        }
+      ]
+    },
+    {
+      "rolls": 10,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_pigstep",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{itemsadder: {id: \"parchment\", namespace: \"solitude\"}, count: 2b, spear_attachment: 2b, CustomModelData: 10000, display: {Name: '{\"italic\":false,\"color\":\"#ED2626\",\"text\":\"羊皮卷\"}', Lore: ['{\"italic\":false,\"text\":\"按照羊皮纸手稿的预言，他译完羊皮纸手稿的最后瞬间，马孔多，将被飓风从地面上一扫而光，将从人们的记忆中彻底抹掉。然而，这卷神秘的羊皮纸仍然保存了下来…似乎具有某种神奇的能力免于损坏。\"}', '{\"italic\":false,\"text\":\"“遭受百年孤独的家族，往后定不会在大地上第二次出现了。”\"}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
